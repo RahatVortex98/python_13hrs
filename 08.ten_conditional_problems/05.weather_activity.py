@@ -1,0 +1,1 @@
+# Suggest an activity based on the weather(e.g: Sunny-Go for walk,Rainy-Read a book,snowy-Build a snowman)
