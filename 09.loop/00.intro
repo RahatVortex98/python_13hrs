@@ -1,0 +1,70 @@
+1. What is a Loop?
+A loop is a programming structure that allows you to repeat a block of code multiple times, either:
+
+For a specific number of times (count-controlled loop)
+
+Or until a condition becomes false (condition-controlled loop)
+
+Loops save you from writing the same code again and again.
+
+
+2. Types of Loops in Python
+Python has two main types of loops:
+
+for loop → Used when you know exactly how many times to run the loop (iterating over a sequence like list, tuple, string, or range).
+
+while loop → Runs as long as a certain condition is True.
+
+
+
+3. for Loop
+    Syntax:
+    
+for variable in sequence:
+    # code block (loop body)
+
+
+variable → gets each value from the sequence, one by one.
+
+sequence → could be a list, tuple, string, dictionary, set, or range.
+
+4. while Loop
+
+while condition:
+    # code block
+
+The loop will keep running as long as the condition is True.
+
+Be careful — if the condition never becomes False, you get an infinite loop.
+
+| Loop Type    | Best For                           | Syntax Example        |
+| ------------ | ---------------------------------- | --------------------- |
+| `for` loop   | Iterating over sequences           | `for i in range(5):`  |
+| `while` loop | Running until a condition is false | `while x < 5:`        |
+| `break`      | Stop loop immediately              | `if x == 3: break`    |
+| `continue`   | Skip iteration                     | `if x == 2: continue` |
+| `pass`       | Placeholder                        | `if x == 2: pass`     |
+
+
+
+Slicing lets you get a sub-part of a sequence by specifying:
+
+sequence[start:stop:step]
+
+
+start — the index where slicing starts (inclusive, default is 0)
+
+stop — the index where slicing ends (exclusive, default is end of sequence)
+
+step — how many steps to move forward each time (default is 1
+
+
+| Slice Syntax           | Meaning                                      | Example Output                   |
+| ---------------------- | -------------------------------------------- | -------------------------------- |
+| `seq[:]`               | Whole sequence (shallow copy)                | `[1, 2, 3]`                      |
+| `seq[::]`              | Same as above                                | `'Python'`                       |
+| `seq[start:stop]`      | From `start` to `stop-1`                     | `lst[2:5]` → elements 2,3,4      |
+| `seq[start:stop:step]` | From `start` to `stop-1`, stepping by `step` | `lst[1:7:2]` → every 2nd element |
+
+
+set()= only takes unique value

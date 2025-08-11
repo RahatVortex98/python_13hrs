@@ -1,0 +1,9 @@
+1. What is a Function?
+A function in Python is a reusable block of code that performs a specific task.
+It:
+
+Lets you avoid repeating code.
+
+Makes your program organized and easier to maintain.
+
+Can accept inputs (parameters) and give outputs (return values).
