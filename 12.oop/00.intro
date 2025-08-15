@@ -1,0 +1,35 @@
+RailwayForm---> class[BluePrint]
+
+
+harry's from ---> Object[Entity]
+tom's from --->Object[Entity]
+
+
+
+
+ 4 Main Pillars of OOP
+Encapsulation — keeping data and methods together, and hiding internal details.
+
+Abstraction — showing only the necessary details, hiding complexity.
+
+Inheritance — one class can get (inherit) attributes and methods from another.
+
+Polymorphism — the same method name can behave differently in different classes.
+
+
+
+
+class Person:
+    def __init__(self, name, age):  # Constructor
+        self.name = name            # Attribute
+        self.age = age
+
+    def greet(self):                # Method
+        return f"Hello, my name is {self.name} and I’m {self.age} years old."
+
+# Creating objects
+p1 = Person("Raisul", 25)
+p2 = Person("Steve", 30)
+
+print(p1.greet())  # Hello, my name is Raisul and I’m 25 years old.
+print(p2.greet())  # Hello, my name is Steve and I’m 30 years old.

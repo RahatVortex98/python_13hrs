@@ -7,3 +7,24 @@ Lets you avoid repeating code.
 Makes your program organized and easier to maintain.
 
 Can accept inputs (parameters) and give outputs (return values).
+
+
+2. Syntax
+Basic function structure:
+
+def function_name(parameters):
+    """Optional docstring that explains the function."""
+    # code block
+    return value  # optional
+
+
+def → keyword to define a function.
+
+function_name → should follow Python naming rules (snake_case).
+
+parameters → variables you pass to the function.
+
+return → sends data back to the caller.
+
+
+
