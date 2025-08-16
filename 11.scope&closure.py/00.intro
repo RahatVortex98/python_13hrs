@@ -1,0 +1,12 @@
+Scope decides where a variable can be accessed in your code.
+Python follows the LEGB rule:
+
+
+| Order | Name          | Meaning                                                      |
+| ----- | ------------- | ------------------------------------------------------------ |
+| **L** | **Local**     | Inside the current function (most specific)                  |
+| **E** | **Enclosing** | In an outer (enclosing) function, if inside nested functions |
+| **G** | **Global**    | Declared at the top level of a module (file)                 |
+| **B** | **Built-in**  | Predefined names in Python (e.g., `len`, `print`)            |
+
+

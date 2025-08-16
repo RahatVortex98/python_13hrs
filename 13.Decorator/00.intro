@@ -1,0 +1,33 @@
+A decorator in Python is essentially a function that modifies another function or method — without permanently changing its code.
+
+Think of it as wrapping extra functionality around an existing function.
+
+
+
+
+Where decorators are used
+
+    Logging
+
+    Access control / authentication
+
+    Caching / memoization
+
+    Timing functions to measure execution time
+
+    Validation of arguments
+
+
+
+def greet(func):                     # 1. greet takes a function as input
+    def mfx():                        # 2. define inner function
+        print('Hello world')          # 3. before original function
+        func()                        # 4. call the original function
+        print('Hello buddy')          # 5. after original function
+    return mfx                        # 6. return the inner function
+
+@greet                                # 7. "hello = greet(hello)"
+def hello():
+    print('Good morning')
+
+hello()
